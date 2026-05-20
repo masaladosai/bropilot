@@ -1,0 +1,15 @@
+[project]
+name = "bropilot"
+version = "0.1.0"
+
+dependencies = [
+    "typer[all]",
+    "python-dotenv",
+    "PyGithub",
+    "langchain",
+    "langgraph",
+    "langchain-google-genai"
+]
+
+[project.scripts]
+bropilot = "bropilot:app"

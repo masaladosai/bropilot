@@ -1,0 +1,6 @@
+PyGithub
+python-dotenv
+langchain
+langgraph
+langchain-google-genai
+typer[all]
